@@ -14,8 +14,8 @@ export class TaskAddEditComponent implements OnInit{
 
   constructor(private _formBuilder: FormBuilder, private _taskService: TaskService, private _dialog: MatDialogRef<TaskAddEditComponent>,@Inject(MAT_DIALOG_DATA) private data: any) {
     this.tasksForm = this._formBuilder.group({
-      userID: '',
-      taskTitle: '',
+      userId: '',
+      title: '',
       completed: '',
       id: ''
     })
