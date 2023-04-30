@@ -35,10 +35,10 @@
     </ng-container>
 
     <!-- Fruit Column -->
-    <ng-container matColumnDef="completed">
+    <ng-container matColumnDef="completed" >
       <th mat-header-cell *matHeaderCellDef mat-sort-header> Completed </th>
       <td mat-cell *matCellDef="let row">
-        <mat-checkbox  [checked]="row.completed" [disabled]="true"></mat-checkbox>
+        <mat-checkbox  [checked]="row.completed" [disabled]="true" ></mat-checkbox>
          </td>
     </ng-container>
 

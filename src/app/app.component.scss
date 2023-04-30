@@ -1,3 +1,7 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+::ng-deep .mat-mdc-checkbox .mdc-checkbox .mdc-checkbox__native-control[disabled]:checked~.mdc-checkbox__background{
+  background-color: #f00!important;
+  border-color: #f00!important;
+}
