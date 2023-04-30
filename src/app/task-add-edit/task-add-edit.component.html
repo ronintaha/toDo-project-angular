@@ -18,10 +18,10 @@
     </mat-form-field>
   </div>
   <div class="row">
-    <mat-radio-group aria-label="Select an option" formControlName="completed">
+    <mat-radio-group aria-label="Select an option" formControlName="completed" >
       <mat-label>Completed</mat-label><br>
-      <mat-radio-button value="1">Done</mat-radio-button><br>
-      <mat-radio-button value="2">Not Done</mat-radio-button>
+      <mat-radio-button [value]="true">Done</mat-radio-button><br>
+      <mat-radio-button [value]="false">Not Done</mat-radio-button>
     </mat-radio-group>
   </div>
 </div>
